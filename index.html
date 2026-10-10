@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arun's Online Business Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1 id="main-title">😎 Arun's Profile</h1>
+        <p class="alert-text"><strong>Notice:</strong> Welcome to my online business card!</p>
+    </header>
+
+    <main>
+        <!-- Profile Business Card -->
+        <div class="card">
+            <img src="profile.jpg" alt="Arun Khadka profile photo" class="profile-img">
+            <h2>Arun Khadka</h2>
+            <p class="tagline">Aspiring Entrepreneur & Tech Student</p>
+            <p class="bio">Passionate about learning entrepreneurship and running new business ventures.</p>
+
+            <!-- Personal Quick Details -->
+            <ul class="details-list">
+                <li><strong>Age:</strong> 22 years</li>
+                <li><strong>Height:</strong> 5.8 ft</li>
+            </ul>
+
+            <p class="sub-text">Send me an email below to connect!</p>
+            
+            <form>
+                <label for="visitor-email">Email Address:</label>
+                <input type="email" id="visitor-email" placeholder="khadkaarun709@gmail.com" value="khadkaarun709@gmail.com" required>
+                <button type="submit">Contact Me</button>
+            </form>
+        </div>
+
+        <hr class="divider">
+
+        <!-- [Box Model Lab] box-sizing: border-box Demo -->
+        <section class="box-model-lab">
+            <h2>🧪 Box Model Lab</h2>
+            <p>Both boxes below have <code>width: 300px;</code> and <code>padding: 30px;</code></p>
+            
+            <div class="box-container default-box">
+                <h3>Default (content-box)</h3>
+                <p>I grew to 370px because of the padding and border!</p>
+            </div>
+
+            <div class="box-container solver-box">
+                <h3>Solver (border-box)</h3>
+                <p>I kept my 300px promise safely.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Arun Khadka's Portfolio</p>
+    </footer>
+
+</body>
+</html>
